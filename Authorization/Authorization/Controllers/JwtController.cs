@@ -23,8 +23,8 @@ namespace Authorization.Controllers
             {
                 Subject = new ClaimsIdentity(new Claim[] 
                 { 
-                    new Claim(ClaimTypes.Name, "wynand"),
-                    new Claim("Age", "30")
+                    new Claim(ClaimTypes.Name, "Wynand"),
+                    new Claim("Age", "40")
                 }),
                 SigningCredentials = signingCreds,
                 Expires = DateTime.UtcNow.AddDays(7),

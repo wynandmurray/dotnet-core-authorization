@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authorization", "Authorization\Authorization.csproj", "{A4E7A06F-C706-48CC-BCC0-31617D94CB8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authorization", "Authorization\Authorization.csproj", "{A4E7A06F-C706-48CC-BCC0-31617D94CB8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authorization.Tests", "Authorization.Tests\Authorization.Tests.csproj", "{06E3EA47-A64E-4AF8-B4BB-6EBA88BC751E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{A4E7A06F-C706-48CC-BCC0-31617D94CB8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4E7A06F-C706-48CC-BCC0-31617D94CB8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4E7A06F-C706-48CC-BCC0-31617D94CB8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06E3EA47-A64E-4AF8-B4BB-6EBA88BC751E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06E3EA47-A64E-4AF8-B4BB-6EBA88BC751E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06E3EA47-A64E-4AF8-B4BB-6EBA88BC751E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06E3EA47-A64E-4AF8-B4BB-6EBA88BC751E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -43,15 +43,14 @@ namespace Authorization
                             }
             );
 
-            services.AddAuthorization(); // This does ONE thing only: Checks that the use is AUTHENTICATED (not Authorized).
-
-
+            // This does ONE thing only: Checks that the use is AUTHENTICATED (not Authorized).
+            services.AddAuthorization();
 
             // Add the IAuthorizationPolicyProvider
             services.AddSingleton<IAuthorizationPolicyProvider, AgePolicyProvider>();
 
             // Add the FirstNameAuthHandler
-            services.AddSingleton<IAuthorizationHandler, AgeHandler>();
+            services.AddSingleton<IAuthorizationHandler, AgeAuthorizationHandler>();
 
             services.AddControllers();
         }

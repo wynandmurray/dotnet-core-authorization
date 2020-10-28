@@ -11,8 +11,6 @@ namespace Authorization.AuthorizationClasses
         {
             FirstName = firstName;
             Age = age;
-
         }
-
     }
 }
